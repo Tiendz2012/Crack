@@ -1,3 +1,7 @@
+if game.PlaceId ~= 286090429 then
+        return -- Stop the script from running in other games
+end
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
